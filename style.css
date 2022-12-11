@@ -1,0 +1,32 @@
+.texting{
+  background: #85f5a2;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.texting label {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  background: #85f5a2;
+  line-height: 30px;
+}
+
+ .texting input {
+  display: block;
+  width: 90%;
+  line-height: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+button{
+  width: 100%;
+  line-height: 20px;
+  background: #92c8f6;
+  border: 2px solid black;
+  border-radius: 2px;
+  color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>counting</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="exercise2"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  
+  
+  
+  <body>
+    <div class="texting">
+    <label>please type your string here
+    <input type="text" id="myText">
+   </label>
+    <button type="button" onclick="myFunction()">measure</button>
+    <p id="counter"></p>
+          
+    </div>
+
+    <script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    var n = x.length;
+    document.getElementById("counter").innerHTML = x + " has " + n + " characters";
+}
+    </script>
+  </body>
+</html>
